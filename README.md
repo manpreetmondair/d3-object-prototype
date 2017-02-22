@@ -52,7 +52,7 @@ In JavaScript, an object may have a link to a prototype for delegation. If a pro
 In JavaScript, any function can create an object. When that function is not a constructor (or `class`), it’s called a factory function. Functional inheritance works by producing an object from a factory, and extending the produced object by assigning properties to it directly (using concatenative inheritance).
 
 Here is the example of Prototypical Inheritance
-''' JavaScript
+``` JavaScript
 const distortion = { distortion: 1 };
 const volume = { volume: 1 };
 const cabinet = { cabinet: 'maple' };
@@ -81,8 +81,8 @@ const myStrip = ChannelStrip({
   inputLevel: 2,
   lowCut: 2,
   volume: 2
-});
-```
+}); ```
+
 
 
 Here is the codepen link:
